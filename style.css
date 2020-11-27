@@ -1,0 +1,107 @@
+.top {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);;
+}
+.all {
+    width: 700px;
+    margin: auto;
+}
+.navitem {
+    cursor: pointer;
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
+    font-size: 1.85em;
+    color: #003399;
+    font-weight: 500;
+}
+.center {
+    height: 800px;
+}
+.number {
+    color: #F27C0F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 288px;
+    line-height: 339px;
+    margin: auto;
+}
+.buttons {
+    margin-top: 50px;
+}
+.first {
+    cursor: pointer;
+    width: 200px;
+    height: 58px;
+    background: #003399;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 58px;
+    text-align: center;
+
+}
+.second {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 200px;
+    height: 58px;
+    background: #F27C0F;
+    border-radius: 4px;
+    line-height: 58px;
+}
+.third {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+    height: 58px;
+    background: #E5E5E5;
+    border-radius: 4px;
+    line-height: 58px;
+}
+.bottom {
+    display: flex;
+}
+.secondLogo {
+    width: 112px;
+    height: 51px;
+}
+.logotip {
+    filter: grayscale(100%);
+    width: 112px;
+}
+.bottomMenu {
+    height: 40px;
+    line-height: 32px;
+    text-align: center;
+}
+.navitem2 {
+    cursor: pointer;
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.copyright {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.last {
+    height: 40px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: auto;
+}
+
+    
