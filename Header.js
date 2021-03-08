@@ -1,13 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Logo from './Logo';
-import Menu from './Menu';
 
-function Header() {
+function Header(props) {
     return (
-        <div className="top justify-content-between">
-            <Logo />
-            <Menu />
+        <div className="header container">
+            <div className="top">Magomed's Todo List</div>
+            <div className="line"></div>
         </div>
     );
 }

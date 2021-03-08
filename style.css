@@ -1,107 +1,83 @@
+.body {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    color: white;
+    height: 935px;
+    margin: auto;
+}
+.app {
+    width: 1140px;
+    align-items: center;
+    margin: auto;
+}
+.header {
+    align-items: center;
+}
+.line {
+    border: 1px solid black;
+    width: 750px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
 .top {
-    padding-top: 15px;
-    padding-bottom: 20px;
-    display: flex;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);;
+    font-size: 2.4em;
+    align-items: center;
+    padding-left: 350px;
+    padding-top: 50px;
 }
-.all {
-    width: 700px;
-    margin: auto;
-}
-.navitem {
-    cursor: pointer;
-    padding: 0 0 0 30px;
-    box-sizing: border-box;
-    font-size: 1.85em;
-    color: #003399;
-    font-weight: 500;
-}
-.center {
-    height: 800px;
-}
-.number {
-    color: #F27C0F;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 288px;
-    line-height: 339px;
-    margin: auto;
-}
-.buttons {
+.form {
     margin-top: 50px;
-}
-.first {
-    cursor: pointer;
-    width: 200px;
-    height: 58px;
-    background: #003399;
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    color: #FFFFFF;
-    line-height: 58px;
-    text-align: center;
-
-}
-.second {
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    width: 200px;
-    height: 58px;
-    background: #F27C0F;
-    border-radius: 4px;
-    line-height: 58px;
-}
-.third {
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-    width: 200px;
-    height: 58px;
-    background: #E5E5E5;
-    border-radius: 4px;
-    line-height: 58px;
-}
-.bottom {
+    padding-left: 270px;
     display: flex;
 }
-.secondLogo {
-    width: 112px;
-    height: 51px;
+.putText {
+    border: none;
+    width: 400px;
 }
-.logotip {
-    filter: grayscale(100%);
-    width: 112px;
+.tick {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
 }
-.bottomMenu {
-    height: 40px;
-    line-height: 32px;
-    text-align: center;
+.add {
+    border: none;
+    margin-left: 20px;
+    color: white;
+    background-color: #ea7005;
+    width: 86px;
+    border-radius: 3px;
 }
-.navitem2 {
+.todos {
+    margin-top: 15px;
+    padding-left: 270px;
+    color: black;
+    padding-right: 310px;
+}
+.todo {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.todo-text {
+    flex: 1;
+    padding-bottom: 10px;
+    margin-top: 7px;
+}
+.actions {
+    display: flex;
+    padding-bottom: 10px;
+}
+.actions button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
-    padding: 0 0 0 30px;
-    box-sizing: border-box;
-    font-weight: 500;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    padding-bottom: 10px;
+    color: red;
 }
-.copyright {
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
+.checker {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
 }
-.last {
-    height: 40px;
-    line-height: 32px;
-    text-align: center;
-    margin-left: auto;
-}
-
-    
